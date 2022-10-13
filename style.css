@@ -1,0 +1,541 @@
+
+
+body{
+  color: #333;
+  font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hamburger {
+  display: none;
+}
+
+header {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  z-index: 30;
+}
+
+.header_wrapper {
+  display: flex;
+  width: auto;
+  padding: 0 30px;
+  height: 60px;
+  align-items: center;
+  z-index: 30;
+}
+
+.logo {
+  height: 16px;
+  width: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+.header_wrapper nav {
+  position: relative;
+  left: 24.890190336749633vw;
+}
+
+/*.header_ul{*/
+/*  display: flex;*/
+/*}*/
+
+.list {
+  display: inline-block;
+  list-style:none;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+  vertical-align:  middle;
+}
+
+.list_link {
+  text-decoration: none;
+  color: #333333;
+}
+
+.list_link:hover {
+opacity: 0.5;
+}
+
+.header_button {
+  background-color: #f79214;
+  color: #ffffff;
+  align-items: center;
+  border-radius: 38px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+.list_link>span:first-child {
+  font-family: 'Lato',sans-serif;
+}
+
+.list_link>span:nth-child(2) {
+  font-size: 10px;
+}
+
+.list_link>span {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
+.first {
+  position: relative;
+  top: 0;
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+  z-index: 1;
+}
+
+.box {
+  width: 50%;
+  text-align: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.button_1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  background-color: #f79214;
+  border-radius: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 0 35px;
+}
+
+.button_1:hover {
+opacity: 0.5;
+}
+
+.button_2 {
+  font-size: 16px;
+  font-weight: 700;
+  height: 64px;
+  border: 1px solid #e0e0e0;
+  border-radius: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 0 35px;
+}
+
+.button_2:hover {
+opacity: 0.5;
+}
+
+.box h2 {
+  color: #333;
+  font-family: 'Lato',sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.circles {
+  vertical-align: middle;
+}
+
+.image_2 {
+  width: 30%;
+  margin: 0 10px;
+}
+
+
+.attention {
+  font-size: 12px;
+  color: #a2a2a4;
+  margin-left: 7.320644216691069vw;
+}  
+
+
+.about {
+  display: flex;
+  color: #fff;
+  background-color: #f79214;
+  padding: 40px 30px;
+  
+}
+
+.about_video {
+  width: 50%;
+  padding: 1.4641288433382138vw 5.124450951683748vw;
+}
+
+.about_text {
+  width: 50%;
+  text-align: left;
+  padding: 80px 30px;
+}
+
+.about h2 {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  line-height: 54px;
+  width: 100%;
+}
+
+.about_text h2 span {
+ font-family: 'Lato',sans-serif;
+ font-size: 38px;
+ font-weight: 900;
+ letter-spacing: 1px;
+}
+
+
+.about p {
+  display: inline-block;
+  vertical-align:  middle;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.about_button {
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.about_button img {
+  margin-right: 5px;
+}
+
+
+
+
+/*---------------レスポンシブ　1080px  ----------------*/
+@media screen and (max-width: 1080px){
+/*.Header {*/
+/*    background-color: #fff;*/
+/*    z-index: 10;*/
+/*}*/
+
+
+body {
+  position: static;
+}  
+
+header {
+  background-color: rgba(255,255,255,1);
+  position: relative;
+  z-index: 30;
+  height: 50px;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 30px;
+  top: -0.36603221083455345vw;
+  height: 21px;
+  left: 45vw;
+  z-index: 100;
+}
+
+.hamburger_bar {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  transform: translate(0,-50%);
+  border-radius: 10px;
+  transition: top .2s,transform .2s,opacity .3s
+}
+
+.hamburger_bar:first-child {
+    top: 0;
+}
+
+.hamburger_bar:nth-child(3) {
+    top:100%;
+}
+
+.header_ul {
+  text-align: center;
+  overflow-y: scroll;
+  position: fixed;
+  top: 60px;
+  left: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  transition: transform .5s;
+  z-index: 99;
+  background-color: rgba(0,0,0,.8);
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+
+.first {
+  position: relative;
+  top: 0;
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 28px;
+  z-index: 1;
+}
+
+.box {
+  width: 48%;
+  text-align: center;
+  margin-left: 3vw;
+}
+
+
+
+}
+
+
+
+/*---------------レスポンシブ　767px  sp----------------*/
+@media screen and (max-width:767px){
+body {
+  position: static;
+}  
+
+header {
+  background-color: rgba(255,255,255,1);
+  position: static;
+  z-index: 30;
+  height: 50px;
+}
+
+.header_wrapper {
+  background-color: rgba(255,255,255,1);
+  height: 50px;
+  align-items: center;
+  z-index: 30;
+  padding: 0 20px;
+}
+
+
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 21px;
+  z-index: 100;
+}
+
+.hamburger_bar {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  transform: translate(0,-50%);
+  border-radius: 10px;
+  transition: top .2s,transform .2s,opacity .3s
+}
+
+.hamburger_bar:first-child {
+    top: 0;
+}
+
+.hamburger_bar:nth-child(3) {
+    top:100%;
+}
+
+
+.header_ul {
+  text-align: center;
+  overflow-y: scroll;
+  position: fixed;
+  top: 60px;
+  left: 100%;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 75px;
+  transition: transform .5s;
+  z-index: 99;
+  background-color: rgba(0,0,0,.8);
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+
+
+.list {
+  margin: 10px 0;
+}
+
+.list_link>span:first-child {
+  font-family: 'Lato',sans-serif;
+  font-size: 16px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.list_link>span:nth-child(2) {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f79214;
+    letter-spacing: 2px;
+}
+
+
+
+.first {
+  height: auto;
+  position: static;
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: 100%;
+  background-position: top;
+  z-index: 0;
+}
+
+.box {
+  position: static;
+  width: 100%;
+  z-index: 10;
+  padding-top: 60%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.box h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+
+.image_1,.image_3 {
+  width: 25%;
+}
+
+.image_2 {
+  width: 35%;
+  margin: 0 5px;
+}
+
+
+.button_1 {
+  width: 90%;
+  margin: 0;
+}
+
+.sp_none {
+  display: none;
+}
+
+.attention {
+  color: #a2a2a4;
+  font-size: 12px;
+  padding: 0;
+  margin: 0 20px 30px 20px;
+}
+	
+	
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 20px;
+  margin: 0;
+  background-color: #f79214;
+}
+
+.about_video {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 188%;
+  aspect-ratio: 335/188;
+}
+
+	
+.about_text {
+  width: 100%;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.about_text h2 {
+  width: 100%;
+  font-size: 32px;
+  line-height: 1.4;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+}
+
+.about_text h2 span {
+ font-family: 'Lato',sans-serif;
+ font-size: 35px;
+ font-weight: 900;
+ letter-spacing: 1px;
+}
+
+.about_text p {
+  width: 90%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 16px;   
+}
+
+.about_button {
+  margin: 10px 0;
+}
+	
+}
