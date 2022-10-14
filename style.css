@@ -37,21 +37,16 @@ header {
   opacity: 0.5;
 }
 
-.header_wrapper nav {
-  position: relative;
-  left: 24.890190336749633vw;
+.header_ul{
+  margin-left: 9vw;
 }
-
-/*.header_ul{*/
-/*  display: flex;*/
-/*}*/
 
 .list {
   display: inline-block;
   list-style:none;
   cursor: pointer;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 30px;
   vertical-align:  middle;
 }
 
@@ -61,7 +56,7 @@ header {
 }
 
 .list_link:hover {
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .header_button {
