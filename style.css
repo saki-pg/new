@@ -104,6 +104,7 @@ header {
   z-index: 1;
 }
 
+
 .box {
   width: 50%;
   text-align: center;
@@ -426,7 +427,7 @@ header {
 .first {
   height: auto;
   position: static;
-  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg);
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
   background-repeat: no-repeat;
   width: 100%;
   padding: 0;
